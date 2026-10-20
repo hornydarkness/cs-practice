@@ -1,0 +1,7 @@
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    x = float(input("Первое число: "))
+    y = float(input("Второе число: "))
+    print("Сумма:", add(x, y))
